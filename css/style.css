@@ -10,7 +10,7 @@ header{
     background-color: #221932;
     color: #b3a5aa;
     display: flex;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: #7c1946 0px 0px 50px;
 }
 
@@ -83,8 +83,11 @@ header{
 /* Corpo */
 
 body{
-    background-color: #060407;
-    
+    /* background-color: #060407; */
+    background-image: url(/img/Fundo\ -\ barber\ 1.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .box-body{
@@ -92,9 +95,12 @@ body{
     margin: 50px auto;
     background: none;
     border: #221932 2px solid;
-    color: #b3a5aa;
     border-radius: 20px;
-    box-shadow: #7c1946 0px 0px 20px;
+    box-shadow: #7c1946 0px 0px 40px;
     height: 100vh;
     text-align: center;
+}
+
+.box-body h1 {
+    color: #b3a5aa;
 }
