@@ -23,9 +23,9 @@ body{
     padding-left: 20px;
 }
 
-main{
-    justify-items: center;
-
+.container{
+    justify-content: center;
+    display: flex;
 }
 
 .container-main{
