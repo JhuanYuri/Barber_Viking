@@ -122,6 +122,7 @@ body{
     font-weight: 200;
 }
 
+<<<<<<< HEAD
 .slider{
     margin-left: 50px;
     width: 700px;
@@ -233,3 +234,16 @@ body{
 #radio5:checked ~ .nav-auto .auto-btn5{
     background-color: #ff0073;
 }
+=======
+footer{
+    justify-items: center;
+}
+
+footer h1{
+    color: white;
+}
+
+footer span{
+    color: #ff0073;
+}
+>>>>>>> e9bc8a9e8410a0ac635523cf6076a64c40f9e616

@@ -12,21 +12,26 @@ body{
     font-family: monospace;
 }
 
+/* Cabeçalho */
 .header{
     height: 70px;
     align-content: center;
 }
 
 .header h2{
-    width: 10%;
     padding-left: 20px;
 }
 
 .header h2 a{
-    color: white;
     text-decoration: none;
+    color: #ff0073;
+    border: #ff0073 2px solid;
+    border-radius: 5px;
+    box-shadow: inset #ff0073 0px 0px 0px 1px, #ff0073 0px 0px 10px;
+    padding: 5px;
 }
 
+/* Corpo */
 .container{
     justify-content: center;
     display: flex;
@@ -34,10 +39,18 @@ body{
 }
 
 .container-main{
+    justify-items: center;
     width: 70%;
     font-size: 20px;
+    /* background-color: #221932; */
 }
 
-.container-main h1, .container-main p{
-    padding-bottom: 25px;
+.container-main h1{
+    margin-bottom: 5px;
+    color: #ff0073;
+    border-bottom: #ff0073 2px solid;
+}
+
+.container-main p{
+    padding-top: 25px;
 }
