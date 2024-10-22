@@ -11,7 +11,7 @@ header{
     color: #b3a5aa;
     display: flex;
     border-radius: 30px;
-    box-shadow: #7c1946 0px 0px 50px;
+    box-shadow: inset #ff0073 0px 0px 10px, #ff0073 0px 0px 50px;
 }
 
 /* Logo */
@@ -21,25 +21,28 @@ header{
 }
 
 .box-logo{
+    display: flex;
+    align-items: center;
     text-align: center;
     font-family: fantasy;
-    margin: 10px auto;
+    margin-block: 10px;
+    margin-inline: 740px;
     width: 180px;
-    height: 210px;
+    height: 150px;
 }
 
 .box-logo h2{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 100;
 }
 
 .box-logo img{
-    width: 160px;
+    width: 200px;
     height: 130px;
 }
 
 .box-logo h1{
-    font-size: 35px;
+    font-size: 49px;
     font-weight: 100;
 }
 
@@ -59,8 +62,10 @@ header{
 
 .box-menu nav ul li{
     padding: 10px;
-    border: #b3a5aa 2px solid;
+    border: #ff0073 2px solid;
+    box-shadow: inset #ff0073 0px 0px 10px, #ff0073 0px 0px 10px;
     border-radius: 5px;
+
 }
 
 .box-menu nav ul li:not(:last-child){
@@ -70,12 +75,7 @@ header{
 
 .box-menu nav ul li a{
     text-decoration: none;
-    color: #b3a5aa;
-}
-
-.box-menu nav ul li:hover{
-    background-color: #7c1946;
-    box-shadow: #b3a5aa 0px 0px 20px;
+    color: #ff0073;
 }
 
 /* Fim Do cabeçalho */
@@ -96,11 +96,28 @@ body{
     background: none;
     border: #221932 2px solid;
     border-radius: 20px;
-    box-shadow: #7c1946 0px 0px 40px;
     height: 100vh;
-    text-align: center;
 }
 
-.box-body h1 {
-    color: #b3a5aa;
+.box-cab {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.box-cab img{
+    width: 60px;
+    background-color: #7c1946;
+    border: 2px solid #ff0073;
+    border-radius: 50px;
+    box-shadow: #ff0073 0px 0px 20px;
+}
+
+.box-cab h1{
+    color: #7c1946;
+    text-shadow: #ff0073 0px 3px 4px;
+    border-left: 2px solid #ff0073;
+    padding-left: 5px;
+    margin-left: 10px;
+    font-weight: 200;
 }
