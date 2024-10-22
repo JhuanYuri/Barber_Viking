@@ -23,6 +23,11 @@ body{
     padding-left: 20px;
 }
 
+.header h2 a{
+    color: white;
+    text-decoration: none;
+}
+
 .container{
     justify-content: center;
     display: flex;
