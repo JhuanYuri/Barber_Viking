@@ -121,3 +121,15 @@ body{
     margin-left: 10px;
     font-weight: 200;
 }
+
+footer{
+    justify-items: center;
+}
+
+footer h1{
+    color: white;
+}
+
+footer span{
+    color: #ff0073;
+}

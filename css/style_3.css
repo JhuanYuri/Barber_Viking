@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    font-family: monospace;
+    background-attachment: fixed;
+    background-image: url(/img/Fundo\ -\ barber\ 1.png);
+}
+
+.header{
+    height: 70px;
+    align-content: center;
+}
+
+.header h2{
+    padding-left: 20px;
+}
+
+.header a{
+    padding: 5px;
+    color: #ff0073;
+    border-radius: 5px;
+    text-decoration: none;
+    border: #ff0073 spx solid;
+    box-shadow: inset #ff0073 0px 0px 0px 1px, #ff0073 0px 0px 10px;
+}
+
+main{
+    justify-items: center;
+}
+
+main h1{
+    font-size: 80px;
+    border-bottom: #ff0073 2px solid;
+}
+
+.contact{
+    width: 60%;
+    margin: 20px;
+    height: 300px;
+    font-size: 20px;
+    justify-items: left;
+    align-content: center;
+    background-color: #221932;
+}
+
+.contact p{
+    padding-top: 15px;
+    padding-left: 100px;
+}
