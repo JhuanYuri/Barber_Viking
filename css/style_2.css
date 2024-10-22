@@ -27,6 +27,7 @@ body{
     text-decoration: none;
 }
 
+/* Corpo */
 .container{
     justify-content: center;
     display: flex;
@@ -34,6 +35,7 @@ body{
 }
 
 .container-main{
+    justify-items: center;
     width: 70%;
     font-size: 20px;
 }
