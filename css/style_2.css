@@ -41,13 +41,3 @@ body{
 .container-main h1, .container-main p{
     padding-bottom: 25px;
 }
-
-.equip{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-
-.container-equip{
-    width: 50%;
-}
