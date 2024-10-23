@@ -33,6 +33,7 @@ main{
 }
 
 main h1{
+    color: #ff0073;
     font-size: 80px;
     border-bottom: #ff0073 2px solid;
 }
@@ -42,8 +43,10 @@ main h1{
     margin: 20px;
     height: 300px;
     font-size: 20px;
+    color: #ff0073;
     justify-items: left;
     align-content: center;
+    border-radius: 20px;
     background-color: #221932;
 }
 
