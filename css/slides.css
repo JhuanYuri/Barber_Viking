@@ -1,3 +1,5 @@
+/* Slides de cortes */
+
 .slider{
     margin-left: 95px;
     width: 700px;
@@ -110,5 +112,59 @@
 }
 
 #radio5:checked ~ .nav-auto .auto-btn5{
+    background-color: #ff0073;
+}
+
+/* Slides de Barbas */
+
+.slider2{
+    float: right;
+    margin-right: 95px;
+    width: 700px;
+    height: 350px;
+    overflow: hidden;
+    border: 2px solid #ff0073;
+    box-shadow: 0px 0px 30px #ff0073;
+}
+
+#radio6:checked ~ .first2{
+    margin-left: 0;
+}
+
+
+#radio7:checked ~ .first2{
+    margin-left: -25%;
+}
+
+#radio8:checked ~ .first2{
+    margin-left: -50%;
+}
+
+#radio9:checked ~ .first2{
+    margin-left: -75%;
+}
+
+#radio10:checked ~ .first2{
+    margin-left: -100%;
+}
+
+
+#radio6:checked ~ .nav-auto .auto-btn6{
+    background-color: #ff0073;
+}
+
+#radio7:checked ~ .nav-auto .auto-btn7{
+    background-color: #ff0073;
+}
+
+#radio8:checked ~ .nav-auto .auto-btn8{
+    background-color: #ff0073;
+}
+
+#radio9:checked ~ .nav-auto .auto-btn9{
+    background-color: #ff0073;
+}
+
+#radio10:checked ~ .nav-auto .auto-btn10{
     background-color: #ff0073;
 }
