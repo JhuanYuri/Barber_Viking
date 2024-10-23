@@ -4,7 +4,7 @@
 }
 
 body{
-    color: white;
+    color: #ff0073;
     font-family: monospace;
     background-attachment: fixed;
     background-image: url(/img/Fundo\ -\ barber\ 1.png);
@@ -33,7 +33,6 @@ main{
 }
 
 main h1{
-    color: #ff0073;
     font-size: 80px;
     border-bottom: #ff0073 2px solid;
 }
@@ -43,7 +42,6 @@ main h1{
     margin: 20px;
     height: 300px;
     font-size: 20px;
-    color: #ff0073;
     justify-items: left;
     align-content: center;
     border-radius: 20px;
