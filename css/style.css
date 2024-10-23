@@ -96,7 +96,7 @@ body{
     background: none;
     border: #221932 2px solid;
     border-radius: 20px;
-    height: 100vh;
+    height: 200vh;
 }
 
 .box-cab {
@@ -125,7 +125,7 @@ body{
 .box-barb {
     display: flex;
     align-items: center;
-    float: right;
+    justify-content: right;
     margin: 30px 20px;
 }
 
