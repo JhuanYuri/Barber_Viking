@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const calendar = document.getElementById('calendar');
+    const confirmation = document.getElementById('confirmation');
     const currentDate = new Date();
     const month = currentDate.getMonth();
     const year = currentDate.getFullYear();
@@ -38,7 +39,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 const selected = document.querySelector('#calendar .selected');
                 if (selected) selected.classList.remove('selected');
                 dayElement.classList.add('selected');
-                alert(`Você selecionou ${day}/${month + 1}/${year}`);
+
+                // Exibe a notificação de agendamento
+                confirmation.textContent = `Agendamento confirmado para ${day}/${month + 1}/${year}`;
+                confirmation.style.display = 'block';
             });
             calendar.appendChild(dayElement);
         }

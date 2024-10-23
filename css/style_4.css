@@ -69,3 +69,16 @@ main h1{
     color: white;
     font-weight: 800;
 }
+
+/* Estilo para a confirmação de agendamento */
+.confimation{
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #00f;
+    background-color: #63b3af;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    display: none;
+}
