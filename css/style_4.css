@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(/img/Fundo\ -\ barber\ 1.png);
+    color: white;
+}
+
+.header{
+    height: 70px;
+    align-content: center;
+}
+
+.header h2{
+    padding-left: 20px;
+}
+
+.header h2 a{
+    padding: 5px;
+    color: #ff0073;
+    border-radius: 5px;
+    text-decoration: none;
+    border: #ff0073 2px solid;
+    box-shadow: #ff0073 0px 0px 0px 1px, #ff0073 0px 0px 10px;
+}
+
+main{
+    text-align: center;
+}
+
+.agendamento{
+    
+}
