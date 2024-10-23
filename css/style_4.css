@@ -5,7 +5,7 @@
 
 body{
     background-image: url(/img/Fundo\ -\ barber\ 1.png);
-    color: white;
+    color: #ff0073;
 }
 
 .header{
@@ -28,8 +28,60 @@ body{
 
 main{
     text-align: center;
+    justify-items: center;
 }
 
-.agendamento{
-    
+main h1{
+    color: #ff0073;
+    margin-bottom: 30px;
+}
+
+.Agendamento{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ff0073;
+    background-color: #220032;
+    box-shadow: #ff0073 0px 0px 20px;
+}
+
+#calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#calendar div{
+    text-align: center;
+    padding: 25px;
+    border: 2px solid #ff0073;
+    cursor: pointer;
+}
+
+#calendar div:hover{
+    background-color: #ff0073;
+    color: #220032;
+}
+
+#calendar .selected{
+    background-color: #ff0073;
+    color: #220032;
+    font-weight: 800;
+}
+
+/* Estilo para a confirmação de agendamento */
+.confimation{
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: #ff0073 0px 0px 7px;
+    background-color: #ff0073;
+    color: #220032;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    display: none;
 }
