@@ -118,7 +118,8 @@
 /* Slides de Barbas */
 
 .slider2{
-    float: right;
+    margin-left: 57%;
+    /* float: right; */
     margin-right: 95px;
     width: 700px;
     height: 350px;
@@ -130,7 +131,6 @@
 #radio6:checked ~ .first2{
     margin-left: 0;
 }
-
 
 #radio7:checked ~ .first2{
     margin-left: -25%;
@@ -166,5 +166,48 @@
 }
 
 #radio10:checked ~ .nav-auto .auto-btn10{
+    background-color: #ff0073;
+}
+
+/* Slides Massagem Facial */
+
+#radio11:checked ~ .first3{
+    margin-left: 0;
+}
+
+#radio12:checked ~ .first3{
+    margin-left: -25%;
+}
+
+#radio13:checked ~ .first3{
+    margin-left: -50%;
+}
+
+#radio14:checked ~ .first3{
+    margin-left: -75%;
+}
+
+#radio15:checked ~ .first3{
+    margin-left: -100%;
+}
+
+
+#radio11:checked ~ .nav-auto .auto-btn11{
+    background-color: #ff0073;
+}
+
+#radio12:checked ~ .nav-auto .auto-btn12{
+    background-color: #ff0073;
+}
+
+#radio13:checked ~ .nav-auto .auto-btn13{
+    background-color: #ff0073;
+}
+
+#radio14:checked ~ .nav-auto .auto-btn14{
+    background-color: #ff0073;
+}
+
+#radio15:checked ~ .nav-auto .auto-btn15{
     background-color: #ff0073;
 }

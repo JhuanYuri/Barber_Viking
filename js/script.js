@@ -27,3 +27,18 @@ function nextImage2() {
 
     document.getElementById("radio"+c).checked = true;
 }
+
+let i = 11;
+
+setInterval(function() {
+    nextImage3()
+}, 2000)
+
+function nextImage3() {
+    i++;
+    if (i>15) {
+        i = 11;
+    }
+
+    document.getElementById("radio"+i).checked = true;
+}
