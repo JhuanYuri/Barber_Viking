@@ -5,7 +5,7 @@
 
 body{
     background-image: url(/img/Fundo\ -\ barber\ 1.png);
-    color: white;
+    color: #ff0073;
 }
 
 .header{
@@ -40,8 +40,9 @@ main h1{
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ff0073;
     background-color: #220032;
+    box-shadow: #ff0073 0px 0px 20px;
 }
 
 #calendar{
@@ -56,17 +57,18 @@ main h1{
 #calendar div{
     text-align: center;
     padding: 25px;
-    border: 2px solid #ddd;
+    border: 2px solid #ff0073;
     cursor: pointer;
 }
 
 #calendar div:hover{
     background-color: #ff0073;
+    color: #220032;
 }
 
 #calendar .selected{
-    background-color: #c26ee9;
-    color: white;
+    background-color: #ff0073;
+    color: #220032;
     font-weight: 800;
 }
 
@@ -74,11 +76,12 @@ main h1{
 .confimation{
     margin-top: 20px;
     padding: 15px;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: #a592d3;
-    color: #000000;
+    box-shadow: #ff0073 0px 0px 7px;
+    background-color: #ff0073;
+    color: #220032;
     font-weight: bold;
     text-align: center;
     font-size: 22px;
+    font-weight: 400;
     display: none;
 }
