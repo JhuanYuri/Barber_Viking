@@ -94,10 +94,11 @@ body{
     width: 97%;
     margin: 50px auto;
     background: none;
-    border: #221932 2px solid;
     border-radius: 20px;
-    height: 200vh;
+    height: 155vh;
 }
+
+/* Serviços */
 
 .box-servico-cab{
     display: flex;
@@ -200,3 +201,19 @@ body{
     margin-left: 10px;
     font-weight: 200;
 }
+
+.text3{
+    width: 600px;
+    margin-top: 60px;
+    margin-right: 200px;
+    float: right;
+    text-align: justify;
+}
+
+.text3 p{
+    font-size: 25px;
+    color: #ff0073;
+    text-shadow: #b3a5aa 0px 0px 20px;
+}
+
+ 
