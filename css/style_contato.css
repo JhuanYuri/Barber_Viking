@@ -11,16 +11,16 @@ body{
     background-image: url(/img/Fundo\ -\ barber\ 1.png);
 }
 
-.header{
+.back{
     height: 70px;
     align-content: center;
 }
 
-.header h2{
+.back h2{
     padding-left: 20px;
 }
 
-.header a{
+.back a{
     padding: 5px;
     color: #ff0073;
     border-radius: 5px;

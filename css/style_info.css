@@ -12,17 +12,17 @@ body{
     font-family: monospace;
 }
 
-/* Cabeçalho */
-.header{
+/* Botão de volta para home page */
+.back{
     height: 70px;
     align-content: center;
 }
 
-.header h2{
+.back h2{
     padding-left: 20px;
 }
 
-.header h2 a{
+.back h2 a{
     text-decoration: none;
     color: #ff0073;
     border: #ff0073 2px solid;
